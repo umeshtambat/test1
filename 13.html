@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="13.js"></script>
+  </head>
+  <body>
+    <p id="pid1">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident, sit
+      hic soluta suscipit culpa, doloremque maiores voluptate aliquam quam
+      sapiente natus ab porro perspiciatis ipsam quas eveniet excepturi!
+      Facilis, dolorem.
+    </p>
+    <input
+      type="button"
+      value="Maximize Font ++"
+      onclick="applyFont('x-large')"
+    />
+    <input
+      type="button"
+      value="Minimize Font --"
+      onclick="applyFont('x-small')"
+    />
+    <input type="button" value="Reset" onclick="applyFont('medium')" />
+
+    <hr />
+    <div>
+      <h1>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam,
+        recusandae.
+      </h1>
+
+      <input
+        type="button"
+        value="&nbsp;&nbsp;"
+        style="
+          background: red;
+          border-radius: 50%;
+          height: 24px;
+          border: none;
+          cursor: pointer;
+        "
+        onclick="applyColor('red')"
+      />
+      <input
+        type="button"
+        value="&nbsp;&nbsp;"
+        style="
+          background: green;
+          border-radius: 50%;
+          height: 24px;
+          border: none;
+          cursor: pointer;
+        "
+        onclick="applyColor('green')"
+      />
+      <input
+        type="button"
+        value="&nbsp;&nbsp;"
+        style="
+          background: blue;
+          border-radius: 50%;
+          height: 24px;
+          border: none;
+          cursor: pointer;
+        "
+        onclick="applyColor('blue')"
+      />
+      <input type="button" value="Reset" onclick="resetColor()" />
+    </div>
+  </body>
+</html>
